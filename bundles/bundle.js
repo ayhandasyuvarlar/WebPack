@@ -60,7 +60,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _appOne__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appOne */ \"./src/appOne.js\");\n/* harmony import */ var _appTwo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./appTwo */ \"./src/appTwo.js\");\n\n\n_appOne__WEBPACK_IMPORTED_MODULE_0__.Person.Try();\n_appTwo__WEBPACK_IMPORTED_MODULE_1__.Employee.Try();\nconsole.log(\"dosya değişti\");\n\n//# sourceURL=webpack://webpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _appOne__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appOne */ \"./src/appOne.js\");\n/* harmony import */ var _appTwo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./appTwo */ \"./src/appTwo.js\");\n\n\n_appOne__WEBPACK_IMPORTED_MODULE_0__.Person.Try();\n_appTwo__WEBPACK_IMPORTED_MODULE_1__.Employee.Try();\n\n//# sourceURL=webpack://webpack/./src/index.js?");
 
 /***/ }),
 
