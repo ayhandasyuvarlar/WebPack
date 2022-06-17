@@ -31,25 +31,14 @@ eval("\n\n__webpack_require__(/*! core-js/es6 */ \"./node_modules/core-js/es6/in
 
 /***/ }),
 
-/***/ "./src/appOne.js":
+/***/ "./src/Module.js":
 /*!***********************!*\
-  !*** ./src/appOne.js ***!
+  !*** ./src/Module.js ***!
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Person\": () => (/* binding */ Person)\n/* harmony export */ });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nvar Person = /*#__PURE__*/function () {\n  function Person() {\n    _classCallCheck(this, Person);\n  }\n\n  _createClass(Person, null, [{\n    key: \"Try\",\n    value: function Try() {\n      console.log(\"Person:Static Function Try\");\n    }\n  }]);\n\n  return Person;\n}();\n\n//# sourceURL=webpack://webpack/./src/appOne.js?");
-
-/***/ }),
-
-/***/ "./src/appTwo.js":
-/*!***********************!*\
-  !*** ./src/appTwo.js ***!
-  \***********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Employee\": () => (/* binding */ Employee)\n/* harmony export */ });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nvar Employee = /*#__PURE__*/function () {\n  function Employee() {\n    _classCallCheck(this, Employee);\n  }\n\n  _createClass(Employee, null, [{\n    key: \"Try\",\n    value: function Try() {\n      console.log(\"Employee:Static Function Try\");\n    }\n  }]);\n\n  return Employee;\n}();\n\n//# sourceURL=webpack://webpack/./src/appTwo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Employee\": () => (/* binding */ Employee),\n/* harmony export */   \"Person\": () => (/* binding */ Person),\n/* harmony export */   \"Try\": () => (/* binding */ Try),\n/* harmony export */   \"User\": () => (/* binding */ User),\n/* harmony export */   \"Username\": () => (/* binding */ Username),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\n// module.exports.testOne = function test(){\n//     console.log(\"testOne\")\n// }\n// module.exports.testTwo= function testTwo(){\n//     console.log(\"testTwo\")\n// }\n// module.exports = {\n//     name :\"Ayhan\",\n//     testOne : function(){\n//         console.log(\"TestOne\")\n//     },\n//     person:{\n//         name : \"Ayhan Daşyuvarlar\",\n//         mail :\"ayhandasyuvarlar3@gmail.com\"\n//     }\n// }\n\n/* Es6 Modules*/\nvar User = \"Ayhan\";\nfunction Username() {\n  console.log(\"Ayhan Daşyuvarlar\");\n}\nvar Person = /*#__PURE__*/function () {\n  function Person() {\n    _classCallCheck(this, Person);\n  }\n\n  _createClass(Person, null, [{\n    key: \"Test\",\n    value: function Test() {\n      console.log(\"Person Test\");\n    }\n  }]);\n\n  return Person;\n}();\nvar Employee = {\n  name: \"Ayhan\",\n  salary: 5000\n};\nvar Try = /*#__PURE__*/function () {\n  function Try() {\n    _classCallCheck(this, Try);\n  }\n\n  _createClass(Try, null, [{\n    key: \"toTry\",\n    value: function toTry() {\n      console.log(\"Defaul-try\");\n    }\n  }]);\n\n  return Try;\n}();\nvar testValue = \"This is a testValue\";\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (testValue);\n\n//# sourceURL=webpack://webpack/./src/Module.js?");
 
 /***/ }),
 
@@ -60,7 +49,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _appOne__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appOne */ \"./src/appOne.js\");\n/* harmony import */ var _appTwo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./appTwo */ \"./src/appTwo.js\");\n\n\n_appOne__WEBPACK_IMPORTED_MODULE_0__.Person.Try();\n_appTwo__WEBPACK_IMPORTED_MODULE_1__.Employee.Try();\n\n//# sourceURL=webpack://webpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Module_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Module.js */ \"./src/Module.js\");\n// import {Person} from './appOne';\n// import {Employee} from './appTwo';\n// Person.Try();\n// Employee.Try();\n\n/** CommonJs Modules */\n//const app = require(\"./Module\")\n// app.testOne()\n// app.testTwo()\n//* Es6 Modules GetModules*/\n///import {Person,Username,Employee} from \"./Module.js\"\n\nconsole.log(_Module_js__WEBPACK_IMPORTED_MODULE_0__);\nconsole.log(_Module_js__WEBPACK_IMPORTED_MODULE_0__.Employee.name); // import Try from \"./Module.js\"\n// Try.toTry()\n\n\nconsole.log(_Module_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://webpack/./src/index.js?");
 
 /***/ }),
 
